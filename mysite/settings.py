@@ -25,7 +25,11 @@ SECRET_KEY = '4a#n40b_%)g4p7my9mzp__thofwkjuo@pi9sxxh@3z_bpc(-@j'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['modiliani.pythonanywhere.com',]
+ALLOWED_HOSTS = [
+    'modiliani.pythonanywhere.com',
+    'localhost:8000',
+    'localhost',
+]
 
 
 # Application definition
