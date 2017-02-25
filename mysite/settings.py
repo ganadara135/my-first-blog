@@ -27,7 +27,6 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     'modiliani.pythonanywhere.com',
-    'localhost:8000',
     'localhost',
 ]
 
