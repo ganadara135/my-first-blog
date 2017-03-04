@@ -9,7 +9,11 @@
     </head>
     <body>
         <div class="page-header">
-            <a href="{% url 'post_new' %}" class="top-menu"><span class="glyphicon glyphicon-plus"></span></a>
+
+            <a href="{% url 'post_draft_list' %}" class="top-menu"><span class="glyphicon glyphicon-plus">draft</span></a>
+
+            <a href="{% url 'post_new' %}" class="top-menu"><span class="glyphicon glyphicon-plus">edit</span></a>
+
             <h1><a href="/">Django Girls Blog</a></h1>
         </div>
         <div class="content container">
